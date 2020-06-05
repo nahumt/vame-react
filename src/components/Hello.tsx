@@ -5,10 +5,16 @@ export interface HelloProps {
   framework: string;
 }
 
+let missing = [0, 2, 1];
 export const Hello: React.FunctionComponent<HelloProps> = props => { 
-  let missing = [0, , 1];
 let spreaded = [...missing];
 let concated = [].concat(missing);
+const iterable = [10, 20, 30];
+let sum = 0;
+for (let value of iterable) {
+  sum = value += 1;
+  
+}
 
 console.log({missing, spreaded,  concated });
   return(

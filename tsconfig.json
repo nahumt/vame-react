@@ -11,6 +11,7 @@
       "es2020",
       "dom"
     ],
+    "strict": true,
     "allowJs": true,
     "checkJs": false,
     "esModuleInterop": true,
